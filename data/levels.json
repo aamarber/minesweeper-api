@@ -1,0 +1,9 @@
+[
+    {
+        "columns": 10,
+        "rows": 10,
+        "mines":[
+            {"row": 0, "column": 0}
+        ]
+    }
+]
