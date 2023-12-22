@@ -7,7 +7,7 @@ class LevelsDB {
     }
 }
 
-const readData = fs.readFileSync('./data/levels.json', 'utf8');
+const readData = fs.readFileSync('/data/levels.json', 'utf8');
 
 const jsonData = JSON.parse(readData);
 
