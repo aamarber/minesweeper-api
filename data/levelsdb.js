@@ -1,4 +1,3 @@
-const fs = require('fs');
 const Level = require('../model/level');
 
 class LevelsDB {
