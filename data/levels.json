@@ -1,9 +1,15 @@
 [
     {
         "columns": 10,
-        "rows": 10,
-        "mines":[
-            {"row": 0, "column": 0}
-        ]
+        "rows": 10
+    },
+    {
+        "columns": 30,
+        "rows": 30
+    }
+    ,
+    {
+        "columns": 60,
+        "rows": 60
     }
 ]
