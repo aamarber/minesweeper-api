@@ -13,7 +13,8 @@ app.use(cors());
 module.exports = app;
 
 require('./controllers/gameController');
+require('./swagger/swaggerController');
 
 app.get('/welcome', (request, result) => {
-    result.status(200).send("Welcome not logged in user!");
+    result.status(200).send("Welcome user!");
 });
