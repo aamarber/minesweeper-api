@@ -8,13 +8,13 @@ class LevelsDB {
                 "rows": 10
             },
             {
-                "columns": 30,
-                "rows": 30
+                "columns": 25,
+                "rows": 25
             }
             ,
             {
-                "columns": 60,
-                "rows": 60
+                "columns": 35,
+                "rows": 35
             }
         ].map(levelData => {
             let level = new Level();
